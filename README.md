@@ -1,7 +1,5 @@
-# Udacity-Robotics-Project2
-Udacity Robotics Software Engineer Nanodegree - Project 2: Go Chase It!
-
-![Alt text](GoChaseIt.png)
+# Udacity-Robotics-Project3
+Udacity Robotics Software Engineer Nanodegree - Project 3: Where Am I?
 
 
 ## Build and Launch
@@ -9,7 +7,7 @@ Udacity Robotics Software Engineer Nanodegree - Project 2: Go Chase It!
 1. Clone and initialize project with a catkin workspace
 ```
 $ mkdir ~/catkin_ws && cd ~/catkin_ws
-$ git clone https://github.com/izzianyramli/Udacity-Robotics-Project2.git
+$ git clone https://github.com/izzianyramli/Udacity-Robotics-Project3.git
 $ mv Udacity-Robotics-Project2 src
 $ cd src && catkin_init_workspace
 ```
@@ -26,12 +24,4 @@ $ source devel/setup.bash
 $ roslaunch my_robot world.launch
 ```
 
-4. Open another terminal, and launch the `ball_chaser`
-```
-$ source devel/setup.bash
-$ roslaunch ball_chaser ball_chaser.launch
-```
-
-5. Pick up the white ball and place in front of the mobile robot.
-
-   The robot will follow the ball.
+4. WIP
